@@ -7,7 +7,7 @@ rectangle = False
 use_face_recognition = True
 
 cap = cv2.VideoCapture(0)
-if(not use_face_recognition)
+if(not use_face_recognition):
     faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 while(True):
